@@ -13,7 +13,7 @@ Scripts for transforming trade data for cmd.
 
 At this point your browser should pop open a "jupyer notebook" - this is just an in-browser IDE, with executable code blocks. Once it has, just click on makeV4_trade.
 
-From there, just follow the instuctions in the notebook (which is pretty much "press play"). you can click into the makeV4_trade.ipynb above to preview this from here.
+From there, just follow the instuctions in the notebook (which is pretty much "press play"). To preview this you can just click into makeV4_trade.ipynb above.
 
 # Usage
 
