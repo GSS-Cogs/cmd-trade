@@ -2,7 +2,7 @@
 
 Scripts for transforming trade data for cmd.
 
-# Setup
+# Setup & Usage
 
 * `brew install python3`
 * Clone this repo, then cd into it.
@@ -15,11 +15,9 @@ At this point your browser should pop open a "jupyer notebook" - this is just an
 
 From there, just follow the instuctions in the notebook (which is pretty much "press play"). To preview this you can just click into makeV4_trade.ipynb above.
 
-# Usage
+# Test Data
 
-Clone this repo and navigate to this directory then start jupyter with `jupyter notebook` and select the notebook. Follow the in-workbook instructions.
-
-You need two excel spreadsheets as the source data for this transformation.
+You need two excel spreadsheets as the source data for this transformation. If you want to try it out you can get them here.
 
 exports - https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MywicGFnZVNpemUiOjEwLCJwYWdlIjoxLCJ1cmkiOiIvZWNvbm9teS9uYXRpb25hbGFjY291bnRzL2JhbGFuY2VvZnBheW1lbnRzL2RhdGFzZXRzL3VrdHJhZGVjb3VudHJ5Ynljb21tb2RpdHlleHBvcnRzIiwibGlzdFR5cGUiOiJyZWxhdGVkZGF0YSJ9.396cbpMmoEHc9aHFxIx_PhsEFz-9umTOwkmTHQGxJGI
 
