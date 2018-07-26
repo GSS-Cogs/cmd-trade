@@ -7,7 +7,7 @@ Scripts for transforming trade data for cmd.
 * `brew install python3`
 * Clone this repo, then cd into it.
 * `python3 -m venv venv`
-* `source venv/bin/activate`  .... at this point, (venv) should appear before your cursor.
+* `source venv/bin/activate`  .... venv should then appear before your cursor.
 * `pip install -r requirements.txt`
 * Copy the two source files into the cmd-trade directory.
 * `jupyter notebook`
