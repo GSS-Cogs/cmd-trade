@@ -9,6 +9,7 @@ Scripts for transforming trade data for cmd.
 * `python3 -m venv venv`
 * `source venv/bin/activate`  .... at this point, (venv) should appear before your cursor.
 * `pip install -r requirements.txt`
+* Copy the two source files into the cmd-trade directory.
 * `jupyter notebook`
 
 At this point your browser should pop open a "jupyer notebook" - this is just an in-browser IDE, with executable code blocks. Once it has, just click on makeV4_trade.
