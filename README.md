@@ -11,7 +11,7 @@ Scripts for transforming trade data for cmd.
 * `pip install -r requirements.txt`
 * `jupyter notebook`
 
-At this point your browser should pop open a "jupyer notebook" - this is just an in-browser IDE, with executable code blocks.
+At this point your browser should pop open a "jupyer notebook" - this is just an in-browser IDE, with executable code blocks. Once it has, just click on makeV4_trade.
 
 From there, just follow the instuctions in the notebook (which is pretty much "press play").
 
