@@ -2,7 +2,7 @@
 
 Scripts for transforming trade data for cmd.
 
-# Setup & Usage (macos)
+# Setup & Usage
 
 * `brew install python3`
 * Clone this repo, then cd into it.
