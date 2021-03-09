@@ -1,25 +1,18 @@
 # CMD Trade
 
-Scripts for transforming trade data for cmd.
+Script for tansforming trade data.
 
-# Setup & Usage
+Transform takes 2 input xlsx files, remove any previous xlsx files so there is no confusion in which spreadsheet is picked up. The input files are found from the ONS website:
 
-* `brew install python3`
-* Clone this repo, then cd into it.
-* `python3 -m venv venv`
-* `source venv/bin/activate`  .... venv should then appear before your cursor.
-* `pip install -r requirements.txt`
-* Copy the two source files into the cmd-trade directory.
-* `jupyter notebook`
+imports - https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports
 
-At this point your browser should pop open a "jupyer notebook" - this is just an in-browser IDE, with executable code blocks. Once it has, just click on makeV4_trade.
+exports - https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports
 
-From there, just follow the instuctions in the notebook (literally "change file names and press play"). To preview this now you can just click into makeV4_trade.ipynb above.
+Place the input files in the same directory as the script or alternatively change the location variable in transform.ipynb to match the file location.
 
-# Test Data
+1 output files is created
+- v4-trade.csv
 
-You need two excel spreadsheets as the source data for this transformation. If you want to try it out you can get them here.
+The transform only requires use of base level packages.
 
-exports - https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MywicGFnZVNpemUiOjEwLCJwYWdlIjoxLCJ1cmkiOiIvZWNvbm9teS9uYXRpb25hbGFjY291bnRzL2JhbGFuY2VvZnBheW1lbnRzL2RhdGFzZXRzL3VrdHJhZGVjb3VudHJ5Ynljb21tb2RpdHlleHBvcnRzIiwibGlzdFR5cGUiOiJyZWxhdGVkZGF0YSJ9.396cbpMmoEHc9aHFxIx_PhsEFz-9umTOwkmTHQGxJGI
-
-imports - https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NCwicGFnZVNpemUiOjEwLCJwYWdlIjoxLCJ1cmkiOiIvZWNvbm9teS9uYXRpb25hbGFjY291bnRzL2JhbGFuY2VvZnBheW1lbnRzL2RhdGFzZXRzL3VrdHJhZGVjb3VudHJ5Ynljb21tb2RpdHlpbXBvcnRzIiwibGlzdFR5cGUiOiJyZWxhdGVkZGF0YSJ9.q9qvUW4qDkYnUFQKNE6B34F3Kp1mxAfOBwDhlOxNLO4
+The transform takes around 5 minutes to complete.
